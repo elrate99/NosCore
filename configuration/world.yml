@@ -1,11 +1,11 @@
 MasterCommunication:
   Password: NosCorePassword
-  Host: ${MASTER_HOST,http://localhost}
+  Host: ${MASTER_HOST,http://185.155.97.241}
   Port: 5000
-ServerName: S1-NosCore
-Host: ${HOST,127.0.0.1}
+ServerName: S1-Russian
+Host: ${HOST,185.155.97.241}
 Port: ${WORLD_PORT,1337}
-DisplayHost: 127.0.0.1
+DisplayHost: 185.155.97.241
 DisplayPort: 1337
 ConnectedAccountLimit: 100
 SceneOnCreate: false
@@ -16,19 +16,20 @@ StartInMaintenance: false
 #12-15 Italian
 #16-19 Polish
 #20-23 Spanish
-ServerId: 0
+#24-27 Spanish
+ServerId: 24
 WorldInformation: true
 WebApi:
-  Host: ${WEBAPI_HOST,http://localhost}
+  Host: ${WEBAPI_HOST,http://185.155.97.241}
   Port: 5001
   Password: NosCorePassword
-Language: en
+Language: RU
 Database:
-  Host: ${DB_HOST,localhost}
+  Host: ${DB_HOST,185.155.97.241}
   Port: 5432
   Database: noscore
   Username: postgres
-  Password: password
+  Password: 12Client34!
 BackpackSize: 48
 MaxItemAmount: 999
 MaxGoldAmount: 1000000000

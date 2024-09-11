@@ -1,7 +1,7 @@
-Language: en
+Language: RU
 Database:
-  Host: localhost
+  Host: 185.155.97.241
   Port: 5432
   Database: noscore
   Username: postgres
-  Password: password
+  Password: 12Client34!

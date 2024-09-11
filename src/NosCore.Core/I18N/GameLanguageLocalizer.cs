@@ -39,8 +39,8 @@ namespace NosCore.Core.I18N
 
                 var result = stringLocalizer[key];
 
-                CultureInfo.CurrentUICulture = currentUi;
-                CultureInfo.CurrentCulture = current;
+                CultureInfo.CurrentUICulture = new CultureInfo("ru");
+                CultureInfo.CurrentCulture = new CultureInfo("ru");
                 return result;
             }
         }
@@ -56,8 +56,8 @@ namespace NosCore.Core.I18N
 
                 var result = stringLocalizer[key, arguments];
 
-                CultureInfo.CurrentUICulture = currentUi;
-                CultureInfo.CurrentCulture = current;
+                CultureInfo.CurrentUICulture = new CultureInfo("ru");
+                CultureInfo.CurrentCulture = new CultureInfo("ru");
                 return result;
             }
         }

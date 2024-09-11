@@ -2,12 +2,12 @@ MasterCommunication:
   Password: NosCorePassword
   Host: ${MASTER_HOST,http://localhost}
   Port: 5000
-Host: ${HOST,127.0.0.1}
+Host: ${HOST,185.155.97.241}
 Port: ${API_PORT,8080}
-Language: en
+Language: RU
 Database:
   Host: ${DB_HOST,localhost}
   Port: 5432
   Database: noscore
   Username: postgres
-  Password: password
+  Password: 12Client34!
